@@ -32,23 +32,24 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![NSG Allowed Inbound Malicious Flows](https://github.com/ChanooKim/Azure-SOC/assets/87055300/ef283c7c-1b96-48e8-a4aa-0c89dc1c5ce5)<br>
+![Linux Syslog Auth Failures](https://github.com/ChanooKim/Azure-SOC/assets/87055300/efbec427-bfa7-4401-8b0c-0d9c8ee065bf)<br>
+![Windows RDP/SMB Auth Failures](https://github.com/ChanooKim/Azure-SOC/assets/87055300/081ebf58-02fa-4147-89b0-868807e9717f)<br>
+![MSSQL Auth Failures](https://github.com/ChanooKim/Azure-SOC/assets/87055300/13d952a5-a74c-4a34-a6ea-e36296bf4a8f)<br>
 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 2023-07-02 17:04:29
+Stop Time 2023-07-03 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
+| SecurityEvent            | 14418
+| Syslog                   | 11571
 | SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityIncident         | 422
+| AzureNetworkAnalytics_CL | 907
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -57,13 +58,13 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-07-06 15:37
+Stop Time	2023-07-07 15:37
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 705
+| Syslog                   | 24
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
