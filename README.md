@@ -51,7 +51,33 @@ Stop Time 2023-07-03 17:04:29
 | SecurityIncident         | 422
 | AzureNetworkAnalytics_CL | 907
 
-## Attack Maps Before Hardening / Security Controls
+## Incident Response
+
+Incident Response was carried out using NIST 800-61 Incident Management Lifecycle
+
+![image](https://github.com/ChanooKim/Azure-SOC/assets/87055300/28f46727-7def-4c69-9a5f-47057af06fdf)
+
+**Step 1: Preparation**
+- Ingest all logs into Log Analytics Workspace and Sentinel
+- Configure alert rules
+
+**Step 2: Detection & Analysis**
+1. Set Severity, Status, Owner
+2. View Full Details (New Experience)
+3. Observe the Activity Log (for history of incident)
+4. Observe Entities and Incident Timelines (are they doing anything else?)
+5. “Investigate” the incident and continue trying to determine the scope
+6. Inspect the entities and see if there are any related events
+7. Determine legitimacy of the incident (True Positive, False Positive, etc.)
+8. If True Positive, continue, if False positive, close it out
+
+**Step 3: Containment, Eradication, and Recovery**
+- Use incident response playbook for each incident
+
+**Step 4: Post-incident Activity**
+- Document findings/info and close out the incident in Sentinel
+
+## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
