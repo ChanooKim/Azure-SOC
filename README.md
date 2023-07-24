@@ -77,6 +77,8 @@ Incident Response was carried out using NIST 800-61 Incident Management Lifecycl
 **Step 4: Post-incident Activity**
 - Document findings/info and close out the incident in Sentinel
 
+## Hardening Cloud Environment with Microsoft Defender for Cloud (CASB/EDR solution)
+
 ## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
