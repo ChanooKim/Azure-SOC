@@ -78,7 +78,12 @@ Incident Response was carried out using NIST 800-61 Incident Management Lifecycl
 **Step 4: Post-incident Activity**
 - Document findings/info and close out the incident in Sentinel
 
-## Hardening Cloud Environment with Microsoft Defender for Cloud (CASB/EDR solution)
+## Hardening Cloud Environment with Microsoft Defender for Cloud 
+
+![Screenshot 2023-07-28 221422](https://github.com/ChanooKim/Azure-SOC/assets/87055300/9e79c9c2-5090-454f-8475-d4b0e0640a78)
+
+Following the incident response process, to prevent further incidents the cloud environment was hardened by following NIST 800-53 and PCI DSS 4 controls. 
+
 
 ## Attack Maps After Hardening / Security Controls
 
