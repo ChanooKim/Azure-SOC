@@ -57,6 +57,8 @@ Stop Time 2023-07-03 17:04:29
 Incident Response was carried out using NIST 800-61 Incident Management Lifecycle
 
 ![image](https://github.com/ChanooKim/Azure-SOC/assets/87055300/28f46727-7def-4c69-9a5f-47057af06fdf)
+![image](https://github.com/ChanooKim/Azure-SOC/assets/87055300/70f53f0d-3b1c-469d-bbdf-adf1e0158600)
+
 
 **Step 1: Preparation**
 - Ingest all logs into Log Analytics Workspace and Sentinel
