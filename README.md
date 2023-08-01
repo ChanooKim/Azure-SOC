@@ -52,7 +52,7 @@ Stop Time 2023-07-03 17:04:29
 | SecurityIncident         | 422
 | AzureNetworkAnalytics_CL | 907
 
-## Incident Response
+## Incident Response (Microsoft Sentinel)
 
 Incident Response was carried out using NIST 800-61 Incident Management Lifecycle
 
